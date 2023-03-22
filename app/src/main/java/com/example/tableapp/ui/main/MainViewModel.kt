@@ -16,7 +16,8 @@ class MainViewModel : ViewModel() {
     return list.sum()
   }
     fun calculateThePlace(list: List<Int>):List<String>{
-        val l = list.sorted().reversed().mapIndexed { index, _ -> index+1 }
-        return l.map { it.toString() }
+        val l = list.sorted().reversed()
+        return list.map { (l.indexOf(it)+1).toString() }
+
     }
 }
