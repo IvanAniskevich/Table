@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:columnCount="11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <!--row 1-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:layout_column="1"
+                app:layout_row="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сумма"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Место"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+            <!--row 1-->
+
+            <!--    row 2-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 1"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="2"
+                app:layout_row="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player1x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="1"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="1"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player1sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <TextView
+                android:id="@+id/player1place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+            <!--        row 2-->
+
+            <!--        row 3-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 2"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/player2x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="2"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="3"
+                app:layout_row="2" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player2x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="2"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player2x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="2"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player2x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="2"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player2x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="2"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player2x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="2"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="2"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player2sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/player2place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+            <!--        row 3-->
+
+            <!--        row 4-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 3"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/player3x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="3"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/player3x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="3"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="4"
+                app:layout_row="3" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player3x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="3"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="3"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player3x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="3"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="3"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player3x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="3"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="3"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player3x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="3"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="3"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player3sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/player3place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+            <!--        row 4-->
+
+            <!--        row 5-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 4"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/player4x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="4"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/player4x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="4"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+            <TextView
+                android:id="@+id/player4x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="4"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="5"
+                app:layout_row="4" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player4x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="4"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="4"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player4x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="4"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="4"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player4x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="4"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="4"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player4sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/player4place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+            <!--        row 5-->
+
+            <!--        row 6-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 5"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/player5x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="5"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/player5x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="5"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+            <TextView
+                android:id="@+id/player5x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="5"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+            <TextView
+                android:id="@+id/player5x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="5"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="6"
+                app:layout_row="5" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player5x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="5"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="5"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player5x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="5"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="5"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player5sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/player5place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+            <!--        row 6-->
+
+            <!--        row 7-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 6"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/player6x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/player6x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="6"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+            <TextView
+                android:id="@+id/player6x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="6"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+            <TextView
+                android:id="@+id/player6x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="6"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+            <TextView
+                android:id="@+id/player6x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="6"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="7"
+                app:layout_row="6" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/player6x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="X"
+                android:tag="6"
+                app:layout_column="8"
+                app:layout_gravity="center"
+                app:layout_row="6"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/player6sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/player6place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+            <!--        row 7-->
+
+            <!--        row 8-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Участник 7"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/player7x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/player7x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="3"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+            <TextView
+                android:id="@+id/player7x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="4"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+            <TextView
+                android:id="@+id/player7x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="5"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+            <TextView
+                android:id="@+id/player7x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="6"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+            <TextView
+                android:id="@+id/player7x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="7"
+                app:layout_column="7"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/black"
+                app:layout_column="8"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/player7sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="9"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/player7place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_column="10"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+            <!--        row 8-->
+
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
